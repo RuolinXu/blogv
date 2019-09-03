@@ -1,0 +1,6 @@
+-i https://pypi.tuna.tsinghua.edu.cn/simple/
+Django==2.1.8
+xadmin2==2.0.1
+django-simple-captcha
+django-ckeditor
+mistune==0.8.4

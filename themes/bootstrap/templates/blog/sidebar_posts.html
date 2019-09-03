@@ -1,0 +1,5 @@
+<ol style="padding: 0px">
+{% for post in posts %}
+<li style="display: block"><a href="{% url 'post-detail' post.id %}">{{ post.title }}</a>
+{% endfor %}
+</ol>
