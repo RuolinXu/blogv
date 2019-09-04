@@ -1,7 +1,7 @@
 from django import template
 
-from blog.forms import CommentForm
-from blog.models import Comment
+from blogs.forms import CommentForm
+from blogs.models import Comment
 
 register = template.Library()
 
